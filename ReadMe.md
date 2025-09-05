@@ -49,5 +49,4 @@ collab-coding-2/
 │── test_gcd.py          # Unit tests for gcd          
 │── README.md            # Project details  
 │── CONTRIBUTING.md      # Contribution guidelines  
-│── Experience_Report.md # Team experience & insights  
-│── Changelog.md         # Record of changes and updates  
+
