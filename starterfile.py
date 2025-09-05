@@ -5,9 +5,12 @@ Collaborative coding assignment using GitHub workflow
 
 # Placeholder functions (contributors will implement them)
 
-def function1():
-    # Contributor 1 will implement
-    pass
+def function1(a, b):
+    """Return least common multiple of two numbers"""
+    if a == 0 or b == 0:
+        return 0
+    from math import gcd
+    return abs(a * b) // gcd(a, b)
 
 def function2():
     # Contributor 2 will implement
