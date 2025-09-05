@@ -22,9 +22,14 @@ def function3():
     # Contributor 3 will implement
     pass
 
-def function4():
-    # Contributor 4 will implement
-    pass
+def function4(a,b):
+    """
+    Function to compute GCD (Greatest Common Divisor) of two numbers
+    using the Euclidean algorithm.
+    """
+    while b != 0:
+        a, b = b, a % b
+    return a
 
 
 # Driver (Admin will finalize later)
