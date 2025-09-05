@@ -1,5 +1,5 @@
 import unittest
-from prime_check import function2
+from starterfile import function2
 
 class TestPrimeCheck(unittest.TestCase):
 
