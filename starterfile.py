@@ -9,10 +9,14 @@ def function1():
     # Contributor 1 will implement
     pass
 
-def function2():
-    # Contributor 2 will implement
-    pass
-
+def function2(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+    # Contributor 2 implemented prime checkin
     # Contributor 3 will implement
 
 def fibonacci_sequence(n: int) -> int:
@@ -36,6 +40,7 @@ def function3():
     
     print(f"Fibonacci of 10 is: {fibonacci_sequence(10)}")
     return fibonacci_sequence(10)
+
 
 
 def function4(a, b):
