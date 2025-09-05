@@ -22,14 +22,21 @@ def function3():
     # Contributor 3 will implement
     pass
 
-def function4(a,b):
+def function4(a, b):
     """
-    Function to compute GCD (Greatest Common Divisor) of two numbers
+    Compute the Greatest Common Divisor (GCD) of two integers
     using the Euclidean algorithm.
+    Handles zero and negative values correctly.
     """
+    a, b = abs(a), abs(b)  # GCD should always be non-negative
+
+    if a == 0 and b == 0:
+        return 0  # or raise ValueError("GCD(0,0) is undefined")
+
     while b != 0:
         a, b = b, a % b
     return a
+
 
 
 # Driver (Admin will finalize later)
