@@ -1,5 +1,5 @@
 import unittest
-from utils import lcm
+from starterfile import function1 as lcm
 
 class TestLCM(unittest.TestCase):
     def test_lcm(self):
